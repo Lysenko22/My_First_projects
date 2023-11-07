@@ -104,8 +104,7 @@ return null;
             try {
                 JSONObject jsonObject = new JSONObject(result);
                 result_info.setText("\uD83C\uDF21 Temperature: " + jsonObject.getJSONObject("main").getDouble("temp")+"\n"
-
-                + "\uD83D\uDE4E Feels like: " + jsonObject.getJSONObject("main").getDouble("feels_like")+"\n"
+                +"\uD83D\uDE4E Feels like: " + jsonObject.getJSONObject("main").getDouble("feels_like")+"\n"
                 +"\uD83E\uDDED Pressure: " + jsonObject.getJSONObject("main").getDouble("pressure")+"\n"
                 +"\uD83D\uDCA7 Humidity: " + jsonObject.getJSONObject("main").getDouble("humidity"));
 

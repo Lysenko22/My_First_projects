@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primery"
+    android:background="@drawable/back_graund"
+    android:id="@+id/backGraund"
     tools:context=".MainActivity">
 
 
@@ -49,10 +50,10 @@
         android:layout_below="@+id/main_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50sp"
+        android:layout_marginTop="55sp"
         android:textAlignment="center"
         android:textColor="@color/textColorHint"
-        android:textSize="25sp" />
+        android:textSize="28sp" />
     <TextView
         android:id="@+id/feels_like"
         android:layout_below="@+id/result_info"
