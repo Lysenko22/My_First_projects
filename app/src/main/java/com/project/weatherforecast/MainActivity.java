@@ -1,4 +1,4 @@
-package com.example.weatherforecast;
+package com.project.weatherforecast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
